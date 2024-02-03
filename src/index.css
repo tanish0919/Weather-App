@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.55); */
+}
+
+body {
+    background-image: url('./images/88778-OJKGF1-91-01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+
+
+.container{
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(5, 6, 21, 1);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid #04040b;   */
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+
+}
+
+
+.input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    width: 300px;
+    margin-right: 10px;
+    font-family: monospace;
+    margin-bottom: 10px;
+}
+
+.input:focus {
+    border-color: #007bff;
+}
+
+.button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+
+
+.button:hover {
+    background-color: #04040b;
+    color: #fff;
+}
+
+.button:active {
+    background-color: #ccc;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+    }
+        /* Adjust width for smaller screens */
+    .form {
+        width: 100%;  
+    }
+    
+}
