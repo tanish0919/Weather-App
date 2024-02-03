@@ -82,7 +82,8 @@ const Weather = ({ location }) => {
             <div className="container5">
               <img src={temp} alt="temp icon" className="temp-icon " />
               <div className="text">
-                {cityData.main.temp_min} - {cityData.main.temp_max}
+                {Math.floor(cityData.main.temp_min - 273)} &deg;C -{" "}
+                {Math.floor(cityData.main.temp_max - 273)} &deg;C
               </div>
             </div>
             <div className="container5">
