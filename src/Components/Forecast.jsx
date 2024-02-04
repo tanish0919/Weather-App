@@ -13,7 +13,7 @@ import axios from "axios";
 
 const Forecast = ({ location }) => {
   const [cityData, setCityData] = useState("");
-  let apiKey = "503649b2c3e06c5b02067d0adfb7331e";
+  const apiKey = import.meta.env.VITE_API_KEY;
   useEffect(() => {
     const fetchData = async () => {
       try {
