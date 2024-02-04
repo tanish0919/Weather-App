@@ -21,7 +21,7 @@ touch .env
 
 Add api key
 ```
-  API_KEY = "Your api key created from openweathermap"
+  VITE_API_KEY = "Your api key created from openweathermap"
 ```
 
 
